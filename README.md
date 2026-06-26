@@ -8,18 +8,18 @@ Open a project's `.kicad_pro` file in KiCad to start. The projects were created 
 
 | Project | Focus |
 | --- | --- |
-| [9V Battery Status Indicator Circuit](<9V Battery Status Indicator Circuit/>) | Two-LED battery-voltage indication circuit. |
-| [Astable multivibrator](<astable miltivibrator Circuit/>) | Two-transistor LED flasher. |
-| [Automatic hand sanitizer](<automatic hand sanitizer/>) | Sensor-controlled pump-switching circuit. |
-| [Clap switch circuit](<clap switch circuit/clap switch circuit/>) | Sound-responsive switching circuit. |
-| [Fire alarm system using photodiode](<fire alarm system using photodiode/>) | Photodiode-triggered alarm circuit. |
-| [Hidden Wire Detector](<Hidden Wire Detector/>) | Wire-detection learning circuit. |
-| [Laser Alarm Security Circuit](<Laser Alarm Security Circuit/>) | Laser-interruption alarm circuit. |
-| [Light-Activated Switch Circuit](<Light-Activated Switch Circuit/>) | Light-sensitive indicator/switch circuit. |
-| [Obstacle detector](<obstacle detector/>) | IR emitter and photodiode obstacle detector. |
-| [Temperature controlled DC fan - BC547](<temperature controlled dc fan - BC547/>) | Thermistor-controlled fan-driver circuit. |
-| [Touch sensor circuit](<touch sensor circuit/>) | Touch-input-controlled load circuit. |
-| [Water level indicator](<water level indicator/>) | Multi-level water indication and alarm circuit. |
+| [9V Battery Status Indicator Circuit](<9V Battery Status Indicator Circuit/README.md>) | Two-LED battery-voltage indication circuit. |
+| [Astable multivibrator](<astable miltivibrator Circuit/README.md>) | Two-transistor LED flasher. |
+| [Automatic hand sanitizer](<automatic hand sanitizer/README.md>) | Sensor-controlled pump-switching circuit. |
+| [Clap switch circuit](<clap switch circuit/clap switch circuit/README.md>) | Sound-responsive switching circuit. |
+| [Fire alarm system using photodiode](<fire alarm system using photodiode/README.md>) | Photodiode-triggered alarm circuit. |
+| [Hidden Wire Detector](<Hidden Wire Detector/README.md>) | Wire-detection learning circuit. |
+| [Laser Alarm Security Circuit](<Laser Alarm Security Circuit/README.md>) | Laser-interruption alarm circuit. |
+| [Light-Activated Switch Circuit](<Light-Activated Switch Circuit/README.md>) | Light-sensitive indicator/switch circuit. |
+| [Obstacle detector](<obstacle detector/README.md>) | IR emitter and photodiode obstacle detector. |
+| [Temperature controlled DC fan - BC547](<temperature controlled dc fan - BC547/README.md>) | Thermistor-controlled fan-driver circuit. |
+| [Touch sensor circuit](<touch sensor circuit/README.md>) | Touch-input-controlled load circuit. |
+| [Water level indicator](<water level indicator/README.md>) | Multi-level water indication and alarm circuit. |
 
 ## Canonical source files
 
