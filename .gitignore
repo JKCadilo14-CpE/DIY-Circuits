@@ -1,0 +1,8 @@
+# KiCad local/session state
+*.kicad_prl
+*.lck
+fp-info-cache
+
+# KiCad automatic recovery and backup content
+*-backups/
+.history/
