@@ -2,6 +2,18 @@
 
 A collection of small electronics and PCB-learning projects created in KiCad. Each folder contains the editable KiCad source for a single circuit, making this repository a place to explore schematic capture, footprint assignment, and simple PCB layout.
 
+## 📚 Educational Use Notice
+
+This repository is intended for educational and personal learning purposes. The circuits, schematics, PCB layouts, fabrication files, and documentation are shared to help students understand electronics design, PCB fabrication, and circuit analysis.
+
+Please do not submit these projects as your own academic work. If you use any design or idea from this repository, make sure you understand how it works, adapt it to your own requirements, and follow your institution's academic integrity policies.
+
+The goal of this repository is to encourage learning, experimentation, and skill development—not to replace your own design process.
+
+## Academic Integrity
+
+If you are using this repository for a class, use it as a reference to understand concepts and improve your own designs. Always create and submit work that complies with your instructor's requirements and your institution's academic integrity policies.
+
 ## Browse the projects
 
 Open a project's `.kicad_pro` file in KiCad to start. The projects were created across KiCad 9/10-era file formats, so opening an older project in a newer KiCad release may prompt for a format upgrade. Keep a local backup before accepting any conversion.
