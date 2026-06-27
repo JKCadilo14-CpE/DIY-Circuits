@@ -11,12 +11,28 @@ This project contains a control board intended to switch a DC pump from an exter
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`automatic hand sanitizer.kicad_pro`](<automatic hand sanitizer.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -70,6 +86,14 @@ Keep liquid away from the PCB and isolate electronics from the sanitizer contain
 
 No pump specification, flyback-protection documentation, or sensor-interface test evidence is recorded.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that identify the sensor and pump connectors.
@@ -88,6 +112,7 @@ After studying this project, readers should understand:
 
 - Reversing pump or supply polarity.
 - Exceeding the transistor’s safe current or thermal limits.
+- Installing a transistor without confirming the emitter, base, and collector pinout for the selected part.
 - Connecting a sensor output without first confirming its voltage level and ground reference.
 
 ## License

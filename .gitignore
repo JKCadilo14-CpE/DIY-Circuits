@@ -6,3 +6,11 @@ fp-info-cache
 # KiCad automatic recovery and backup content
 *-backups/
 .history/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

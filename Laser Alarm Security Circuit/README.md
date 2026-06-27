@@ -11,12 +11,28 @@ This project contains an LDR-based optical alarm circuit with LED and buzzer out
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`Laser Alarm Security Circuit.kicad_pro`](<Laser Alarm Security Circuit.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -70,6 +86,16 @@ Avoid directing a laser toward eyes or reflective surfaces. This project is not 
 
 Ambient-light response, laser type, detection distance, and alarm behavior are not recorded.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Verify electrolytic capacitor polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that show the LDR, laser input, and alarm outputs.
@@ -88,6 +114,7 @@ After studying this project, readers should understand:
 
 - Wiring the LDR divider differently from the schematic.
 - Reversing LED polarity or selecting a buzzer with the wrong voltage rating.
+- Installing a transistor without confirming the emitter, base, and collector pin order for the exact model.
 - Testing a laser path without considering eye safety and ambient light.
 
 ## License

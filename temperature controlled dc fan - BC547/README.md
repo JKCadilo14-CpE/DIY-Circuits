@@ -11,12 +11,30 @@ This project contains a thermistor-controlled BC547 transistor circuit with a fa
 | Status | Educational prototype |
 | Difficulty | Beginner |
 | KiCad project file | [`temperature controlled dc fan.kicad_pro`](<temperature controlled dc fan.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+![Finished PCB front](docs/images/Pcb-Actual-Front.jpg)
+
+![Finished PCB back](docs/images/Pcb-Actual-Back.jpg)
 
 ## Repository Navigation
 
@@ -70,6 +88,15 @@ Disconnect power before changing the thermistor or fan wiring. Do not exceed the
 
 The repository does not document the fan load, switching threshold, hysteresis, or measured thermal performance.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that identify the thermistor and fan connection.
@@ -88,6 +115,7 @@ After studying this project, readers should understand:
 
 - Installing the thermistor in the wrong physical location for the temperature being measured.
 - Assuming a small transistor can drive any DC fan.
+- Replacing the BC547 without confirming the new transistor’s emitter, base, and collector pin arrangement.
 - Reversing the fan or supply polarity.
 
 ## License

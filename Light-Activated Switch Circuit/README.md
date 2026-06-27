@@ -11,12 +11,28 @@ This project contains a photodiode-controlled transistor circuit with an LED out
 | Status | Educational prototype |
 | Difficulty | Beginner |
 | KiCad project file | [`Light-Activated Switch.kicad_pro`](<Light-Activated Switch.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -70,6 +86,15 @@ Use a low-voltage supply only and avoid testing the sensor with high-intensity l
 
 No ambient-light threshold, response-time measurement, or supply-current result is documented.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that identify the photodiode and LED paths.
@@ -88,6 +113,7 @@ After studying this project, readers should understand:
 
 - Reversing the photodiode or LED polarity.
 - Using an incorrect LED-series resistor.
+- Assuming every NPN transistor has the same emitter, base, and collector pin arrangement.
 - Expecting identical behavior under different ambient-light conditions.
 
 ## License

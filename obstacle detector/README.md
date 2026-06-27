@@ -11,12 +11,28 @@ This project contains an IR LED and photodiode sensing circuit with transistor s
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`obstacle detector.kicad_pro`](<obstacle detector.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -70,6 +86,15 @@ Use a low-voltage supply. Do not view an IR LED through optical instruments unle
 
 Target reflectivity, ambient light, alignment, detection range, and speaker load requirements are not documented.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that show the IR emitter, photodiode, and speaker output.
@@ -88,6 +113,7 @@ After studying this project, readers should understand:
 
 - Reversing the IR LED or photodiode polarity.
 - Misaligning the emitter and receiver during a reflected-light test.
+- Installing a transistor without checking whether its emitter, base, and collector pinout matches the PCB footprint.
 - Connecting a speaker without confirming its voltage and current requirements.
 
 ## License

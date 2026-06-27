@@ -11,12 +11,28 @@ This project is a microphone-input circuit with transistor stages and an LED out
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`clap switch circuit.kicad_pro`](<clap switch circuit.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -71,6 +87,16 @@ Use a low-voltage supply only. Avoid powering the board while changing microphon
 
 The repository does not specify sound threshold, load interface, false-trigger behavior, or tested operating conditions.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Verify electrolytic capacitor polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that show the microphone and amplifier stages.
@@ -89,6 +115,7 @@ After studying this project, readers should understand:
 
 - Reversing the polarized capacitor.
 - Rotating a transistor incorrectly relative to its pinout.
+- Assuming the replacement transistor uses the same emitter, base, and collector order as the schematic symbol.
 - Mounting the microphone with the wrong polarity or overlooking noise pickup during testing.
 
 ## License

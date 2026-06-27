@@ -11,12 +11,28 @@ This project contains a detector board with a copper connection, transistor stag
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`Hidden Wire Detector.kicad_pro`](<Hidden Wire Detector.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -70,6 +86,15 @@ Do not use this project to determine whether wiring is safe to touch. Keep the d
 
 No sensing range, target wire type, operating environment, or validated detection result is recorded.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that identify the sensing connection and indicator.
@@ -87,6 +112,7 @@ After studying this project, readers should understand:
 ## Common Beginner Mistakes
 
 - Rotating an NPN transistor incorrectly relative to its pinout.
+- Assuming a different transistor part number has the same emitter, base, and collector order.
 - Assuming any wire-detection circuit is safe for direct mains probing.
 - Testing with an unverified supply polarity or sensing connection.
 

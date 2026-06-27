@@ -11,12 +11,28 @@ This project contains a multi-stage water-level indication circuit with LEDs and
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`water level indicator.kicad_pro`](<water level indicator.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Pcb-Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -71,6 +87,16 @@ Use an isolated low-voltage supply for any water test. Keep the PCB dry and do n
 
 The probe geometry, water conductivity range, supply requirements, and long-term corrosion behavior are not documented.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Verify electrolytic capacitor polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that identify the probe inputs and indication stages.
@@ -89,6 +115,7 @@ After studying this project, readers should understand:
 
 - Wiring sensor probes to the wrong connector positions.
 - Testing with non-isolated power near water.
+- Installing transistors without checking each device’s emitter, base, and collector pin arrangement.
 - Reversing LEDs or the buzzer supply polarity.
 
 ## License

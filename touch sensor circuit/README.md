@@ -11,12 +11,30 @@ This project contains a touch-sensor-labeled input, a transistor stage, and a la
 | Status | Educational prototype |
 | Difficulty | Intermediate |
 | KiCad project file | [`touch sensor circuit.kicad_pro`](<touch sensor circuit.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+![Finished PCB front](docs/images/Pcb-Actual-Front.jpg)
+
+![Finished PCB back](docs/images/Pcb-Actual-Back.jpg)
 
 ## Repository Navigation
 
@@ -70,6 +88,15 @@ Do not connect an unspecified lamp load to mains electricity. Use a low-voltage 
 
 The touch-sensor model, output logic level, lamp type, and load-driving limits are not documented.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that identify the touch-sensor input and lamp output.
@@ -88,6 +115,7 @@ After studying this project, readers should understand:
 
 - Assuming a touch-sensor output can directly drive any load.
 - Rotating the transistor incorrectly relative to its pinout.
+- Installing a substitute transistor without confirming the emitter, base, and collector pin order.
 - Connecting a lamp without confirming voltage, current, and isolation requirements.
 
 ## License

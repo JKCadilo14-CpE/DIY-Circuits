@@ -11,12 +11,28 @@ This project contains a small LED indicator board intended to show battery-statu
 | Status | Educational prototype |
 | Difficulty | Beginner |
 | KiCad project file | [`9V Battery Status Indicator Circuit.kicad_pro`](<9V Battery Status Indicator Circuit.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcb-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -70,6 +86,15 @@ Use a current-limited low-voltage supply while learning. Do not connect the circ
 
 The repository does not document the switching thresholds, battery chemistry, or measured indicator behavior.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots for quick project review.
@@ -88,6 +113,7 @@ After studying this project, readers should understand:
 
 - Reversing LED or zener-diode polarity.
 - Using the wrong resistor value for an LED current path.
+- Installing a transistor without checking its emitter, base, and collector pin arrangement for the exact model being used.
 - Applying power with unverified connector polarity.
 
 ## License

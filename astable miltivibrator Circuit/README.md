@@ -11,12 +11,28 @@ This project is a two-transistor astable multivibrator that alternates two LEDs.
 | Status | Educational prototype |
 | Difficulty | Beginner |
 | KiCad project file | [`astable miltivibrator.kicad_pro`](<astable miltivibrator.kicad_pro>) |
-| Hardware tested | To be verified |
+| Hardware tested | ✅ Yes (prototype successfully assembled and functionally tested) |
 | Manufacturing release | Not yet prepared |
 
 ## Project Gallery
 
-Images will be added in Phase 3.
+### Schematic
+
+![Schematic](docs/images/Schematic.png)
+
+### PCB Layout
+
+![PCB top view](docs/images/Pcb-Design.png)
+
+![PCB bottom view](docs/images/Pcb-Tracing.png)
+
+### 3D Render
+
+![3D board render](docs/images/Pcd-3d-Design.png)
+
+### Finished Hardware
+
+> Hardware photos will be added after additional prototype boards are assembled and photographed.
 
 ## Repository Navigation
 
@@ -71,6 +87,16 @@ Use only a low-voltage supply appropriate for the labeled rail. Disconnect power
 
 The repository does not record the measured flash rate, component tolerances, or tested supply range.
 
+## Before You Power the Circuit
+
+- Verify transistor orientation and E/B/C pinout.
+- Verify LED polarity.
+- Verify electrolytic capacitor polarity.
+- Check for solder bridges and cold solder joints.
+- Verify resistor values before power-up.
+- Confirm supply voltage and polarity.
+- Perform a continuity check before applying power.
+
 ## Future improvements
 
 - Add schematic and PCB screenshots that show the timing network.
@@ -89,6 +115,7 @@ After studying this project, readers should understand:
 
 - Installing polarized capacitors backwards.
 - Rotating a transistor incorrectly relative to its pinout.
+- Assuming different transistor models share the same emitter, base, and collector pin arrangement.
 - Reversing either LED or selecting incorrect timing resistors.
 
 ## License
