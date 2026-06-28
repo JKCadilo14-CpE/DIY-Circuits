@@ -1,4 +1,10 @@
 # DIY Circuits
+![GitHub release](https://img.shields.io/github/v/release/JKCadilo14-CpE/DIY-Circuits)
+![License](https://img.shields.io/badge/License-MIT-green)
+![KiCad](https://img.shields.io/badge/KiCad-9.0%20%7C%2010.0-314CB6?logo=kicad&logoColor=white)
+![Projects](https://img.shields.io/badge/Projects-12-blue)
+![Hardware Tested](https://img.shields.io/badge/Hardware-Tested-success)
+![Documentation](https://img.shields.io/badge/Documentation-v2.0.0-blue)
 
 A curated collection of beginner-friendly KiCad PCB projects designed for learning, experimentation, and educational reference.
 
